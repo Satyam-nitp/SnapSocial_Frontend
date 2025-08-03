@@ -3,12 +3,7 @@
 
 EchoSphere is a modern, responsive full-stack social media platform built with the MERN stack. It allows users to share posts, create stories, chat in real-time, and manage their profiles — designed with a clean UI and smooth user experience.
 
-![SnapSocial Screenshot](./screenshot.png) <!-- Replace with your screenshot path -->
-
-<!-- ## 🌐 Live Demo
-🔗 [Visit Live App](https://echosphere.vercel.app)  
-📦 [Frontend GitHub Repo](https://github.com/Satyam-nitp/EchoSphere_frontend)  
-🛠️ [Backend GitHub Repo](https://github.com/Satyam-nitp/EchoSphere_backend) -->
+![SnapSocial Screenshot](./screenshot.png) 
 
 ---
 
@@ -42,7 +37,6 @@ EchoSphere is a modern, responsive full-stack social media platform built with t
 
 /client         ← React frontend
 /server         ← Express backend
-.env.example    ← Sample environment variables
 
 ````
 
@@ -77,7 +71,7 @@ npm install
 npm run dev
 
 # In /client
-npm run dev
+npm start
 ```
 
 ---
