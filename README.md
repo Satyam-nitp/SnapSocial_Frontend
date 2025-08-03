@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+```markdown
+# 🚀 SnapSocial – Full-Stack Social Media App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EchoSphere is a modern, responsive full-stack social media platform built with the MERN stack. It allows users to share posts, create stories, chat in real-time, and manage their profiles — designed with a clean UI and smooth user experience.
 
-## Available Scripts
+![SnapSocial Screenshot](./screenshot.png) <!-- Replace with your screenshot path -->
 
-In the project directory, you can run:
+<!-- ## 🌐 Live Demo
+🔗 [Visit Live App](https://echosphere.vercel.app)  
+📦 [Frontend GitHub Repo](https://github.com/Satyam-nitp/EchoSphere_frontend)  
+🛠️ [Backend GitHub Repo](https://github.com/Satyam-nitp/EchoSphere_backend) -->
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:** React.js, Tailwind CSS, Redux Toolkit, React Hot Toast
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose
+- **Real-Time:** Socket.io for instant messaging
+- **Storage:** Cloudinary for image uploads
+- **Auth:** JWT (JSON Web Tokens), bcrypt
+- **Deployment:** Vercel (Frontend), Render/Railway (Backend), MongoDB Atlas
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- 🔐 Secure JWT-based Authentication & Authorization
+- 📝 Post Creation & Feed with Hashtags
+- 📸 Story Sharing (Instagram-style)
+- 💬 Real-time Messaging using Socket.io
+- 🧑‍🤝‍🧑 User Connections (Follow/Unfollow)
+- 🧾 Responsive Design (Mobile-First)
+- ☁️ Cloudinary Integration for Media Uploads
+- ⚡ Toast Notifications via `react-hot-toast`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
+/client         ← React frontend
+/server         ← Express backend
+.env.example    ← Sample environment variables
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+````
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧪 Getting Started (Local Setup)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone the Repos
 
-## Learn More
+```bash
+git clone https://github.com/Satyam-nitp/EchoSphere_frontend.git
+git clone https://github.com/Satyam-nitp/EchoSphere_backend.git
+````
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2. Set Up Environment Variables
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create `.env` files in both `/client` and `/server` folders using `.env.example` as reference.
 
-### Code Splitting
+### 3. Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd client
+npm install
+cd ../server
+npm install
+```
 
-### Analyzing the Bundle Size
+### 4. Run the App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# In /server
+npm run dev
 
-### Making a Progressive Web App
+# In /client
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+<!-- ## 🔒 Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### `/client/.env.example`
 
-### Deployment
+```env
+REACT_APP_API_URL=http://localhost:5000/api
+``` -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- ### `/server/.env.example`
 
-### `npm run build` fails to minify
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+--- -->
+
+<!-- ## 📸 Screenshots
+
+<!-- Add your own screenshots here -->
+
+| Feed Page                       | Messages                                | Profile                               |
+| ------------------------------- | --------------------------------------- | ------------------------------------- |
+| ![Feed](./screenshots/feed.png) | ![Messages](./screenshots/messages.png) | ![Profile](./screenshots/profile.png) |
+
+--- -->
+
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 💬 Contact
+
+Made with 💙 by [Satyam Singh](https://github.com/Satyam-nitp)
+Feel free to open issues or contribute to the project!
+
+
