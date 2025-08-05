@@ -10,9 +10,12 @@
     "lucide-react": "^0.536.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-hook-form": "^7.62.0",
     "react-hot-toast": "^2.5.2",
+    "react-rating-stars-component": "^2.2.0",
     "react-router-dom": "^7.7.1",
     "react-scripts": "5.0.1",
+    "react-stars": "^2.2.5",
     "react-toastify": "^11.0.3",
     "web-vitals": "^2.1.4"
   },
