@@ -5,7 +5,7 @@ import Signin from "../components/core/Signin";
 
 const Login = () => {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row">
+    <div className="min-h-screen flex flex-col lg:flex-row">
       {/* background image */}
       <img
         src={assets.bgImage}
