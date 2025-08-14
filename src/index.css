@@ -43,3 +43,7 @@ input:focus {
   border-color: #28a745;
   outline: none;
 }
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
