@@ -79,7 +79,7 @@ const Connections = () => {
             .value.map((user) => (
               <div
                 key={user._id}
-                className="w-full max-w-88 flex gap-5 p-6 bg-white shadow rounded-md"
+                className="w-full max-w-80 flex gap-5 p-6 bg-white shadow rounded-md"
               >
                 <img
                   src={user.profile_picture}
@@ -127,8 +127,6 @@ const Connections = () => {
         </div>
 
         {/* search */}
-        
-
       </div>
     </div>
   );
